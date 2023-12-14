@@ -2,6 +2,6 @@ package main
 
 import "fmt"
 
-func main() {
+func DoublyLinkedList() {
 	fmt.Println("Doubly Linked List!")
 }
