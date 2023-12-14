@@ -1,3 +1,3 @@
-module github.com/materdev/OpenPair-Golang_linked-list-practice
+module github.com/materdev/linkedlist
 
 go 1.21.4

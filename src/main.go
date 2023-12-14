@@ -1,7 +1,12 @@
 package main
 
+import (
+	// "github.com/materdev/linkedlist/src/basic"
+	"github.com/materdev/linkedlist/src/advanced"
+)
+
 func main() {
-	BasicLinkedList()
-	// AdvancedLinkedList()
+	// basic.BasicLinkedList()
+	advanced.AdvancedLinkedList()
 	// DoublyLinkedList()
 }
