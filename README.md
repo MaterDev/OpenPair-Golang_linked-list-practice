@@ -14,20 +14,6 @@ This repository contains a series of exercises to help understand and implement 
 - `advanced_linked_list.go`: Expands upon the basic linked list, introducing methods to add nodes at the start, delete nodes, and reverse the list.
 - `doubly_linked_list.go`: Implements a doubly linked list with the ability to add nodes at both ends, and display the list in both forward and reverse order.
 
-## Getting Started
-
-To run these exercises, you will need to have Go installed on your machine. 
-
-1. Clone this repository or download the source files.
-2. Navigate to the directory containing the files.
-3. Run each file using the Go command:
-
-   ```bash
-   go run ./src/basic_linked_list.go 
-   go run ./src/advanced_linked_list.go
-   go run ./src/doubly_linked_list.go
-   ```
-
 ## Exercises
 
 ### Exercise 1: Basic Linked List
