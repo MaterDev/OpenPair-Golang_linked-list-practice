@@ -6,7 +6,7 @@
 
 This repository contains a series of exercises to help understand and implement linked lists in Go (Golang). There are three main exercises, each focusing on different aspects and complexities of linked lists, including singly linked lists, advanced operations, and doubly linked lists.
 
-> This is the repository for **episode #7** of my Golang Streaming series on YouTube. Episodes can be watched here: [OpenPair: Golang](https://www.youtube.com/playlist?list=PL2NvA4OAtDRS2wBL2FvjiSlKCtcBrcFzc)
+> This is a repository for my Golang Streaming series on YouTube. Episodes can be watched here: [OpenPair: Golang](https://www.youtube.com/playlist?list=PL2NvA4OAtDRS2wBL2FvjiSlKCtcBrcFzc)
 
 ## Repository Structure
 
