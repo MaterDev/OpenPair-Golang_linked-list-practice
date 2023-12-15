@@ -87,9 +87,7 @@ func (llist *LinkedList) Reverse() {
 	llist.head = prev
 }
 
-// TODO: Review the Reverse()
 // TODO: Create a method that will delete all nodes with value arg
-// TODO: Continue to Doubly Linked List
 
 func AdvancedLinkedList() {
 	fmt.Println("Advanced Linked List!")
