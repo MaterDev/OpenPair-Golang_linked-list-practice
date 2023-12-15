@@ -65,22 +65,17 @@ func (llist *LinkedList) DeleteWithValue(data int) {
 	}
 }
 
-// Reverse linked list
+//! Reverse linked list
 func (llist *LinkedList) Reverse() {
 	var prev, next *Node
 	current := llist.head
 
-	// The head's .next will be nil, since it is the new last item in the list.
-		
-	// When the loops runs the second time, it will remember the head's (previous node's) reference because it was stored as "prev", which is a variable that is accessible outside of the loop
-		
-	// "next" will determine the new current at the end of the loop, so that the next iteration can know where to start, eventhough it is disconnected from the list temporarily while the reverse algorithm run.
 	for current != nil {
 		next = current.next
-		current.next = prev // Change the pointer of the next node, to 'prev'.
+		current.next = prev
 		fmt.Printf("current.next: %v \n", current.next)
 		fmt.Printf("prev: %v \n", prev)
-		prev = current // Change the value of previous to current
+		prev = current
 		current = next
 	}
 
